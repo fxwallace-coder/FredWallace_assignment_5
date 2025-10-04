@@ -25,3 +25,15 @@ for i in range(2,num_input-1):
 else:
     print(f"{num_input} is prime!")    
 print()
+
+#3rd Challenge
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table")
+print("      1    2    3    4    5    6    7    8    9    10")
+for i in range(1,11):
+    print(i*1, end="    ")
+    for i2 in range(1,11):
+        val=i*i2
+        print(val,end="    ")
+    print()
+    
